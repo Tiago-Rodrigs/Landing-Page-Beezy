@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- This links to style.css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>BEEZY CHALLENGE</title>
+  </head>
+  <body>
+    <div class="container">
+      <picture class="image-container">
+        <!-- This image is showing up only for desktop || tablets -->
+        <source
+          media="(min-width:610px)"
+          srcset="
+            ./assets/images/phone-desktop-small.png  374w,
+            ./assets/images/phone-desktop-medium.png 748w,
+            ./assets/images/phone-desktop-small.png  804w
+          "
+        />
+
+        <!-- This image is showing up only for mobile -->
+        <source
+          media="(max-width:610px)"
+          srcset="
+            ./assets/images/phone-mobile-small.png  268w,
+            ./assets/images/phone-mobile-medium.png 536w,
+            ./assets/images/phone-mobile-large.png  804w
+          "
+        />
+        <!-- Fallback image -->
+        <img src="./assets/images/phone-desktop-large.png" alt="Phone" />
+      </picture>
+
+      <!-- Social media -->
+      <div class="social-media-container">
+        <!-- This is linking to # -->
+        <a href="#" target="_blank">
+          <img src="./assets/images/email.svg" alt="email icon" />
+        </a>
+
+        <!-- This is linking to # -->
+        <a href="#" target="_blank">
+          <img src="./assets/images/twitter.svg" alt="twitter icon" />
+        </a>
+      </div>
+
+      <!-- secction container -->
+
+      <div class="section-container">
+        <!-- logo -->
+        <img src="./assets/images/logo.svg" class="logo" alt="logo" />
+
+        <!-- Title -->
+        <h1>The best of Slack & WhatsApp combined and built in Office 365</h1>
+
+        <!-- Subtitle -->
+        <h2>
+          Get early access to Contoso, the new enterprise messaging app for
+          modern team communication
+        </h2>
+
+        <br />
+
+        <!-- form container -->
+        <form action="submit">
+          <input type="email" placeholder="Your O365 email" />
+          <button type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      // handle the data
+    </script>
+  </body>
+</html>
