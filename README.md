@@ -2,13 +2,12 @@
 
 This is a landing page for Beezy
 
-**
 
 # Overview
 
 <img align="center" width="80%" alt="html5"  src="./assets/images/overview.png"/>
 
-**
+
 
 # Links
 
@@ -18,7 +17,6 @@ This is a landing page for Beezy
    
    3 - [Design](https://zpl.io/VQWP4ZW)
 
-**
 
 # Technologies used
 
