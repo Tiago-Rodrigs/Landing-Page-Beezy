@@ -13,7 +13,7 @@ This is a landing page for Beezy
 
    1 - [Github](https://github.com/Tiago-Rodrigs/beezy-challenge)
 
-   2 - [Website live](https://beezy-challenge.netlify.app)
+   2 - [Live demo](https://beezy-challenge.netlify.app)
    
    3 - [Design](https://zpl.io/VQWP4ZW)
 
